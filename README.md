@@ -18,7 +18,6 @@ Hyperparameters are key to getting the best out of machine learning models. This
 - Support Vector Machine (SVM)
 
 # Comparison
-| ------------- | ----------- | -------- | -------------- |
 | Method        | Time        | Accuracy | Best Params    |
 | ------------- | ----------- | -------- | -------------- |
 | Grid Search   | Slower      | ✅✅✅  | Exhaustive    |
