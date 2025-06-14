@@ -1,29 +1,29 @@
 # HyperParameter-Tuning-of-Model
+
 This project focuses on improving ML model performance through Hyperparameter Tuning using GridSearchCV and RandomizedSearchCV.
 
-# Overview
+# Project Overview
+
 Hyperparameters are key to getting the best out of machine learning models. This project tunes a Spam Email Classifier using:
 - Grid Search for exhaustive tuning
 - Random Search for faster exploration
 - Classification models: Logistic Regression, Random Forest, SVM
 
-# Objectives
-- Understand the importance of hyperparameters in ML
-- Use GridSearchCV and RandomizedSearchCV from scikit-learn
-- Improve metrics like Accuracy, Precision, Recall, and F1-score
+# Project Objectives
+
+- Train a classifier to detect spam emails.
+- Tune model performance by experimenting with different hyperparameters.
+- Evaluate the model using precision, recall, F1 score, and confusion matrix.
+- Implement both **GridSearchCV** and **RandomizedSearchCV** for optimization.
 
 # Models Used
+
 - Logistic Regression
 - Random Forest Classifier
 - Support Vector Machine (SVM)
 
-# Comparison
-| Method        | Time        | Accuracy | Best Params    |
-| ------------- | ----------- | -------- | -------------- |
-| Grid Search   | Slower      | ✅✅✅  | Exhaustive    |
-| Random Search | Much Faster | ✅✅    | Smart Sampling |
+# Results
 
-# Conclusion
-- Hyperparameter tuning significantly boosts model performance.
-- Grid Search ensures best fit but is computationally expensive.
-- Random Search is faster and still delivers high-performing models.
+- Best Parameters found using Grid Search and Random Search
+- F1 Score improved after tuning
+- High performance confirmed with cross-validation
